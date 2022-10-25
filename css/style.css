@@ -1,0 +1,197 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "M PLUS 1", sans-serif;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.4;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.main-wrapper {
+  min-height: 170vh;
+  background: linear-gradient(#322251, #dc1c82);
+}
+
+.top-bar {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials {
+  color: white;
+  margin-right: 8px;
+}
+
+.socials ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.socials li {
+  margin-right: 1rem;
+  font-size: 28px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-content {
+  min-height: calc(100vh - 80px);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-panel {
+  display: flex;
+  flex: 55;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2rem;
+  color: white;
+}
+
+.about-img {
+  display: flex;
+  flex: 45;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+
+.music-content {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.music-content audio {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.music-title {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 28px;
+  align-self: flex-start;
+  margin-left: 10%;
+}
+
+#listen-div {
+  font-size: 20px;
+  display: flex;
+  cursor: pointer;
+}
+
+#listen-div span {
+  line-height: 2.5;
+}
+
+#listen-div i {
+  margin-left: 8px;
+  font-size: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background-color: #dc1c82;
+}
+
+.footer span {
+  color: white;
+  font-size: 28px;
+}
+
+.footer ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  width: 20%;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.footer a {
+  font-size: 36px;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 1400px) {
+  .main-content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #listen-div {
+    display: none;
+  }
+
+  .about-panel {
+    padding-top: 2rem;
+  }
+
+  .music-content {
+    margin-top: 8px;
+  }
+
+  .about-img {
+    padding: 0 2rem 1rem 2rem;
+  }
+
+  .footer {
+    height: 20vh;
+  }
+
+  .music-title {
+    font-size: 20px;
+  }
+
+  .footer {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .footer span {
+    font-size: 22px;
+  }
+
+  .footer ul {
+    width: 40%;
+    justify-content: space-around;
+  }
+
+  .footer a {
+    font-size: 24px;
+  }
+}

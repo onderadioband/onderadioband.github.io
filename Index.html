@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Onde Radio</title>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Onde Radio" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@200;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <div class="top-bar">
+        <img
+          src="./images/logo_pieno.png"
+          alt="logo"
+          style="height: 100%; width: auto; margin-left: 8px"
+        />
+        <div class="socials">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/onderadioband"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/onderadioband/"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC704Klm6GU780tBZku3Qf2A"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/artist/0SJTFixqjJ4HDBcSBAwXUV">
+                <i class="bi bi-spotify"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="about-panel">
+          <div class="about-content">
+            <h3>About</h3>
+            <p>
+              Tutto è iniziato nel 2015, quando eravamo quattro ragazzi
+              qualunque.<br /><br />Oggi invece, grazie alla musica, siamo
+              ancora quattro ragazzi qualunque, ma con delle
+              <b>storie da raccontare</b>.<br />
+              Abbiamo fatto parecchia baracca in giro per la nostra regione -
+              l’Emilia Romagna - suonando tutto quello che ci passava per la
+              testa, poi abbiamo gozzovigliato in giro per l’Italia, fino al
+              “tacco dello stivale” e ritorno.
+              <br /><br />
+              Siamo amici fraterni e compagni di avventure. Siamo Angelo,
+              Federico, Davide e Filippo.<br /><br />
+              Siamo le <b>Onde Radio</b>.<br /><br />
+              Abbiamo visto posti, fatto cose, conosciuto gente. Ad un certo
+              punto abbiamo deciso di raccontare tutte queste vicende, tanto
+              normali quanto incredibili, scrivendo la nostra musica.
+              L’etichetta indipendente Music Master Studio ha scelto di
+              scommettere su di noi, arrivando così alla pubblicazione del
+              nostro primo album, “<i>Gin Tonic?</i>”, nel 2020.<br /><br />
+              Se ci cercate, provate a seguire gli schiamazzi della gente che si
+              vuol divertire.<br />
+              È probabile che ci troviate là.
+            </p>
+            <div id="listen-div">
+              <span>Ascolta la nostra musica</span>
+              <i class="bi bi-arrow-down-circle"></i>
+            </div>
+          </div>
+        </div>
+        <div class="about-img">
+          <img
+            src="./images/Sfondo.JPG"
+            alt="OndeRadioImage"
+            style="height: auto; width: 100%"
+          />
+        </div>
+      </div>
+      <div id="music" class="music-content">
+        <span class="music-title">Portami a ballare</span>
+        <audio controls>
+          <source src="./mp3/portami.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <span class="music-title">Gigi nello spazio</span>
+        <audio controls>
+          <source src="./mp3/gigi.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <span class="music-title">Centomila passi</span>
+        <audio controls>
+          <source src="./mp3/centomila.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Seguici sui nostri social!</span>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/onderadioband"
+            ><i class="bi bi-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/onderadioband/"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UC704Klm6GU780tBZku3Qf2A"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://open.spotify.com/artist/0SJTFixqjJ4HDBcSBAwXUV">
+            <i class="bi bi-spotify"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
