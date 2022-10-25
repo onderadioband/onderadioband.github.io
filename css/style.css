@@ -195,3 +195,14 @@ p {
     font-size: 24px;
   }
 }
+
+@media screen and (min-width: 1420px) {
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+}
